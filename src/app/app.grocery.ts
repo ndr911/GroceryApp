@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { faBasketShopping } from '@fortawesome/free-solid-svg-icons';
+
 
 @Component({
 	selector: 'app-grocery',
@@ -11,6 +13,7 @@ import { Component } from '@angular/core';
 export class GroceryComponent {
   task: string;
   tasks = [];
+  faBasketShopping = faBasketShopping;
 
   onClick(){
   	this.tasks.push({name: this.task});

@@ -4,16 +4,19 @@ import { GroceryComponent } from './app.grocery';
 import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome'
 
 @NgModule({
   declarations: [
     GroceryComponent,
-    AppComponent
+    AppComponent,
+    
   ],
   imports: [
     BrowserModule,
     FormsModule,
     CommonModule,
+    FontAwesomeModule
     //HttpModule
   ],
   providers: [],

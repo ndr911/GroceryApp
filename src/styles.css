@@ -3,3 +3,12 @@
     border: 260px;
     border-color:black;
   }
+  .form-outline
+  {
+    color: black;
+    size: 30px;
+  }
+  input[type="text"]
+  {
+    outline: 200px;
+  }
